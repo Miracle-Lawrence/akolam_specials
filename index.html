@@ -39,6 +39,82 @@
         </nav>
     </header>
     <main>
+      <section class="hero">
+  <picture>
+    <source srcset="images/hero_large.webp" media="(min-width: 900px)">
+    <source srcset="images/hero_medium.webp" media="(min-width: 600px)">
+    <img src="images/hero_small.webp" alt="Delicious African meals served at De Bubbles Eatery" loading="lazy">
+  </picture>
+  <div class="hero-content">
+    <h1>Welcome to Akolam Sweets</h1>
+    <p>Fresh, organic, and healthy delights — from classic meals to pastries, desserts, and fruit drinks..</p>
+    <a href="menu.html" class="cta-button">Explore Packages</a>
+  </div>
+</section>
+
+      <section class="catalogue" aria-labelledby="catalogue-heading">
+  <h2 id="catalogue-heading">Our Special Delights</h2>
+  <div class="carousel-container">
+    <button class="carousel-btn prev">&#10094;</button>
+    <div class="carousel" id="meal-carousel">
+      <!-- Meals will be injected here by JavaScript -->
+    </div>
+    <button class="carousel-btn next">&#10095;</button>
+  </div>
+  <p class="view-more">
+    <a href="menu.html">Explore Full Menu &rarr;</a>
+  </p>
+</section>
+
+<section class="why-us">
+  <h2>Why Choose Akolam Sweets this Valentine?</h2>
+  <ul>
+    <li>❤️ Exclusive Valentine’s Packages for him & her</li>
+    <li>💝 Flexible price options to suit every budget</li>
+    <li>🍫 Premium delights – chocolates, pastries, fruit drinks & more</li>
+    <li>🎁 Extra add-on gift option worth ₦15,000 for a special touch</li>
+    <li>🚚 Reliable delivery to make celebrations stress-free</li>
+  </ul>
+</section>
+
+
+
+<section class="testimonials">
+  <h2>What Our Customers Say</h2>
+  <blockquote id="testimonial">Loading reviews...</blockquote>
+  <button id="see-more-reviews" type="button">
+    See More Reviews
+  </button>
+</section>
+
+<!-- Dialog for Reviews -->
+<dialog id="reviews-dialog">
+  <button id="close-dialog" aria-label="Close reviews">&times;</button>
+  <h3>Customer Reviews</h3>
+  <ul id="all-reviews-list"></ul>
+</dialog>
+
+<div class="location-newsletter-wrapper">
+  <section class="place-order" id="order">
+  <h2>Place an Order</h2>
+  <p>Craving something sweet, healthy, or classic? Order your favorite pastries, desserts, fruit drinks, or premium food trays from Akolam Sweets!</p>
+  <p>We deliver fresh delights straight to you. Open Daily: 8am – 9pm</p>
+  <a href="https://wa.me/2348067405845?text=Hello%20Akolam%20Sweets%2C%20I'd%20like%20to%20place%20an%20order" target="_blank" class="cta-button">Order on WhatsApp</a>
+</section>
+
+
+
+  <section class="newsletter" id="contact">
+  <h2>Stay Connected with Akolam Sweets</h2>
+  <p>Be the first to know about new packages, seasonal offers, and exclusive deals!</p>
+  <form>
+    <input type="email" placeholder="Enter your email" required>
+    <button type="submit">Subscribe</button>
+  </form>
+</section>
+
+</div>
+
 
     </main>
     <footer>
