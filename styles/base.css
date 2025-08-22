@@ -141,13 +141,14 @@ footer {
 }
 
 footer h3 {
+  font-size: 0.8rem;
   margin-top: 0;
   color: var(--accent-1);
 }
 
 footer p,
 footer a {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   line-height: 1.5;
 }
 
