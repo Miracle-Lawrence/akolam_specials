@@ -1,152 +1,34 @@
-[
-  {
-    "name": "Amaka O.",
-    "rating": 5,
-    "review": "The food was delicious and delivery was right on time. Highly recommend!"
-  },
-  {
-    "name": "John M.",
-    "rating": 4,
-    "review": "Great taste, though I wish the portion was a little bigger."
-  },
-  {
-    "name": "Chidinma K.",
-    "rating": 5,
-    "review": "Absolutely loved the jollof rice and grilled fish. Perfectly seasoned!"
-  },
-  {
-    "name": "David A.",
-    "rating": 3,
-    "review": "Food was okay, but delivery took longer than expected."
-  },
-  {
-    "name": "Ifeanyi E.",
-    "rating": 5,
-    "review": "Best suya I’ve had in a long while! Will definitely order again."
-  },
-  {
-    "name": "Sarah L.",
-    "rating": 4,
-    "review": "Very tasty meals, packaging could be better though."
-  },
-  {
-    "name": "Oluwatobi F.",
-    "rating": 5,
-    "review": "I love how fresh and hot the food was when it arrived. Amazing service!"
-  },
-  {
-    "name": "Ngozi P.",
-    "rating": 5,
-    "review": "Everything was perfect, from ordering to delivery. Great experience."
-  },
-  {
-    "name": "Michael D.",
-    "rating": 4,
-    "review": "The pepper soup was flavorful. Slightly spicy for me, but still good."
-  },
-  {
-    "name": "Esther N.",
-    "rating": 5,
-    "review": "Wow! The meal tasted like home. Thank you for keeping it authentic."
-  },
-  {
-    "name": "Samuel K.",
-    "rating": 4,
-    "review": "Great meals, would be awesome if delivery time could be shorter."
-  },
-  {
-    "name": "Rita O.",
-    "rating": 5,
-    "review": "So yummy! My kids loved it too. Will order again soon."
-  },
-  {
-    "name": "Felix I.",
-    "rating": 5,
-    "review": "Excellent service and great communication throughout. Highly recommended."
-  },
-  {
-    "name": "Peace C.",
-    "rating": 4,
-    "review": "Food was delicious but portion size was just average."
-  },
-  {
-    "name": "Blessing T.",
-    "rating": 5,
-    "review": "This was my first order and I’m super impressed. Keep it up!"
-  },
-  {
-    "name": "Victor H.",
-    "rating": 3,
-    "review": "The taste was okay but the food arrived slightly cold."
-  },
-  {
-    "name": "Aisha G.",
-    "rating": 5,
-    "review": "Loved everything about the food. Will recommend to friends."
-  },
-  {
-    "name": "Chioma U.",
-    "rating": 4,
-    "review": "Nice meal, though the spice level could be a bit higher."
-  },
-  {
-    "name": "Emmanuel J.",
-    "rating": 5,
-    "review": "Best pounded yam and egusi soup I’ve had in a long while!"
-  },
-  {
-    "name": "Kelechi V.",
-    "rating": 5,
-    "review": "The grilled chicken was so juicy and tasty. Perfect!"
-  },
-  {
-    "name": "Grace A.",
-    "rating": 4,
-    "review": "Loved the flavor, but packaging leaked a little during delivery."
-  },
-  {
-    "name": "Tunde B.",
-    "rating": 5,
-    "review": "Great portions, affordable pricing, and tasty food!"
-  },
-  {
-    "name": "Jane E.",
-    "rating": 5,
-    "review": "The best dining experience I’ve had without leaving home."
-  },
-  {
-    "name": "Henry C.",
-    "rating": 4,
-    "review": "Food was nice, delivery was a bit late but worth it."
-  },
-  {
-    "name": "Ada O.",
-    "rating": 5,
-    "review": "Perfect balance of flavors. I enjoyed every bite."
-  },
-  {
-    "name": "Joseph I.",
-    "rating": 5,
-    "review": "I’ve ordered multiple times and they never disappoint."
-  },
-  {
-    "name": "Sophie L.",
-    "rating": 4,
-    "review": "The stew was rich and flavorful. Will try other dishes soon."
-  },
-  {
-    "name": "Daniel W.",
-    "rating": 5,
-    "review": "Fast delivery, friendly service, and delicious food!"
-  },
-  {
-    "name": "Uche P.",
-    "rating": 5,
-    "review": "I recommend their jollof to everyone. So smoky and tasty."
-  },
-  {
-    "name": "Maryann Z.",
-    "rating": 4,
-    "review": "Good service overall. Food was hot and neatly packaged."
-  }
-]
+{
+  "reviews": [
+    "The food was delicious and delivery was right on time. Highly recommend! — Amaka O.",
+    "Great taste, though I wish the portion was a little bigger. — John M.",
+    "Absolutely loved the jollof rice and grilled fish. Perfectly seasoned! — Chidinma K.",
+    "Food was okay, but delivery took longer than expected. — David A.",
+    "Best suya I’ve had in a long while! Will definitely order again. — Ifeanyi E.",
+    "Very tasty meals, packaging could be better though. — Sarah L.",
+    "I love how fresh and hot the food was when it arrived. Amazing service! — Oluwatobi F.",
+    "Everything was perfect, from ordering to delivery. Great experience. — Ngozi P.",
+    "The pepper soup was flavorful. Slightly spicy for me, but still good. — Michael D.",
+    "Wow! The meal tasted like home. Thank you for keeping it authentic. — Esther N.",
+    "Great meals, would be awesome if delivery time could be shorter. — Samuel K.",
+    "So yummy! My kids loved it too. Will order again soon. — Rita O.",
+    "Excellent service and great communication throughout. Highly recommended. — Felix I.",
+    "Food was delicious but portion size was just average. — Peace C.",
+    "This was my first order and I’m super impressed. Keep it up! — Blessing T.",
+    "The taste was okay but the food arrived slightly cold. — Victor H.",
+    "Loved everything about the food. Will recommend to friends. — Aisha G.",
+    "Nice meal, though the spice level could be a bit higher. — Chioma U.",
+    "Best pounded yam and egusi soup I’ve had in a long while! — Emmanuel J.",
+    "The grilled chicken was so juicy and tasty. Perfect! — Kelechi V.",
+    "Loved the flavor, but packaging leaked a little during delivery. — Grace A.",
+    "Great portions, affordable pricing, and tasty food! — Tunde B.",
+    "The best dining experience I’ve had without leaving home. — Jane E.",
+    "Food was nice, delivery was a bit late but worth it. — Henry C.",
+    "Perfect balance of flavors. I enjoyed every bite. — Ada O.",
+    "I’ve ordered multiple times and they never disappoint. — Joseph I.",
+    "The stew was rich and flavorful. Will try other dishes soon. — Sophie L.",
+    "Fast delivery, friendly service, and delicious food! — Daniel W.",
+    "I recommend their jollof to everyone. So smoky and tasty. — Uche P.",
+    "Good service overall. Food was hot and neatly packaged. — Maryann Z."
+  ]
+}

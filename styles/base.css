@@ -394,7 +394,7 @@ footer div {
   font-style: italic;
   font-size: 0.8rem;
   font-weight: bold;
-  color: var(--content-contrast-text-color);
+  color: var(--accent-1);
   background: var(--background-color);
   margin: 1rem auto;
   padding: 1.5rem;
@@ -414,7 +414,7 @@ dialog {
   overflow-y: auto;
   box-shadow: 0 5px 20px rgba(255, 145, 77, 0.15), 0 2px 8px rgba(0,0,0,0.2);
   background: var(--background-color);
-  color: var(--content-contrast-text-color);
+  color: var(--accent-1);
   font-size: 0.8rem;
 }
 

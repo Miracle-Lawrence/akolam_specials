@@ -1,0 +1,148 @@
+{
+  "meals": [
+    {
+      "name": "Shawarma",
+      "price": "N3,000",
+      "image": "images/shawarma.webp",
+      "description": "Juicy and flavorful shawarma wrapped with fresh veggies and sauce. A perfect quick bite."
+    },
+    {
+      "name": "Meat Pie",
+      "price": "N1,200",
+      "image": "images/meat-pie.webp",
+      "description": "Golden, flaky pastry filled with well-seasoned minced meat and vegetables."
+    },
+    {
+      "name": "Chicken Pie",
+      "price": "N1,500",
+      "image": "images/chicken-pie.webp",
+      "description": "Rich pastry stuffed with tender chicken chunks and vegetables for a satisfying snack."
+    },
+    {
+      "name": "Croissant (Mini)",
+      "price": "N2,000",
+      "image": "images/croissant-mini.webp",
+      "description": "Buttery and flaky mini croissant, baked fresh for a light and tasty treat."
+    },
+    {
+      "name": "Jollof Rice",
+      "price": "N3,000",
+      "image": "images/jollof-rice.webp",
+      "description": "Classic smoky jollof rice cooked with fresh tomatoes, spices, and peppers."
+    },
+    {
+      "name": "Egusi Soup",
+      "price": "N3,500",
+      "image": "images/egusi-soup.webp",
+      "description": "Rich melon seed soup cooked with vegetables, assorted meats, and spices."
+    },
+    {
+      "name": "Pineapple Fried Rice Tray",
+      "price": "N30,000",
+      "image": "images/pineapple-fried-rice.webp",
+      "description": "Premium fried rice infused with pineapple chunks, served in a large party tray."
+    },
+    {
+      "name": "Chinese Fried Rice Tray",
+      "price": "N30,000",
+      "image": "images/chinese-fried-rice.webp",
+      "description": "Flavorful Chinese-style fried rice with vegetables and proteins, served party-sized."
+    },
+    {
+      "name": "Caribbean Rice",
+      "price": "N30,000",
+      "image": "images/caribbean-rice.webp",
+      "description": "Aromatic Caribbean-style rice cooked with spices, herbs, and a blend of tropical flavors."
+    },
+    {
+      "name": "Lebanese Rice",
+      "price": "N30,000",
+      "image": "images/lebanese-rice.webp",
+      "description": "Delicious Lebanese-style rice with nuts and spices, perfect for sharing."
+    },
+    {
+      "name": "Spicy Dirty Rice",
+      "price": "N30,000",
+      "image": "images/dirty-rice.webp",
+      "description": "Spicy and savory dirty rice cooked with herbs, meats, and bold seasoning."
+    },
+    {
+      "name": "Hibachi Fried Rice",
+      "price": "N30,000",
+      "image": "images/hibachi-rice.webp",
+      "description": "Japanese hibachi-style fried rice with eggs, vegetables, and savory seasoning."
+    },
+    {
+      "name": "Kedgeree Rice",
+      "price": "N30,000",
+      "image": "images/kedgeree-rice.webp",
+      "description": "Classic kedgeree rice cooked with smoked fish, eggs, and fragrant spices."
+    },
+    {
+      "name": "Chicken Fried Rice",
+      "price": "N30,000",
+      "image": "images/chicken-fried-rice.webp",
+      "description": "Delicious chicken fried rice stir-fried with vegetables, eggs, and seasonings."
+    },
+    {
+      "name": "Ice Cream",
+      "price": "N1,500",
+      "image": "images/ice-cream.webp",
+      "description": "Creamy and refreshing ice cream, available in assorted flavors."
+    },
+    {
+      "name": "Fruit Salad",
+      "price": "N2,000",
+      "image": "images/fruit-salad.webp",
+      "description": "A healthy mix of freshly cut fruits for a refreshing treat."
+    },
+    {
+      "name": "Spinach Soup",
+      "price": "N3,500",
+      "image": "images/spinach-soup.webp",
+      "description": "Nutritious Nigerian spinach soup cooked with assorted proteins and spices."
+    },
+    {
+      "name": "White Soup",
+      "price": "N4,000",
+      "image": "images/white-soup.webp",
+      "description": "A traditional delicacy made with yam and richly seasoned proteins."
+    },
+    {
+      "name": "Afang Soup",
+      "price": "N3,800",
+      "image": "images/afang-soup.webp",
+      "description": "Rich soup made with afang leaves and waterleaf, cooked with assorted meats and fish."
+    },
+    {
+      "name": "Oha Soup",
+      "price": "N4,000",
+      "image": "images/oha-soup.webp",
+      "description": "Classic Igbo soup made with oha leaves and cocoyam, seasoned with traditional spices."
+    },
+    {
+      "name": "Vegetable Soup",
+      "price": "N3,500",
+      "image": "images/vegetable-soup.webp",
+      "description": "Flavorful soup cooked with a variety of green vegetables and proteins."
+    },
+    {
+      "name": "Vegetable Sauce",
+      "price": "N3,000",
+      "image": "images/vegetable-sauce.webp",
+      "description": "A rich vegetable-based sauce perfect for pairing with rice or yams."
+    },
+    {
+      "name": "Quinoa Sauce",
+      "price": "N3,800",
+      "image": "images/quinoa-sauce.webp",
+      "description": "Healthy quinoa-based sauce blended with mixed vegetables and spices."
+    },
+    {
+      "name": "Vegetable Stew",
+      "price": "N3,200",
+      "image": "images/vegetable-stew.webp",
+      "description": "Hearty stew packed with vegetables simmered in rich tomato and spice base."
+    }
+  ]
+}

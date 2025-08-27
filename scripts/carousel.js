@@ -6,27 +6,17 @@ const carouselContainer = document.querySelector(".carousel-container");
 let meals = [];
 let currentIndex = 0;
 
-// Check if meals exist in localStorage
-const storedMeals = localStorage.getItem("mealsData");
 
-if (storedMeals) {
-  meals = JSON.parse(storedMeals);
-  renderMeals();
-  updateCarousel();
-  startAutoplay();
-} else {
-  // Fetch and store in localStorage if not found
-  fetch("data/meals.json")
-    .then((response) => response.json())
-    .then((data) => {
-      meals = data.meals.slice(0, 10);
-      localStorage.setItem("mealsData", JSON.stringify(meals));
-      renderMeals();
-      updateCarousel();
-      startAutoplay();
-    })
-    .catch((error) => console.error("Error loading meals:", error));
-}
+fetch("data/meals.json")
+  .then((response) => response.json())
+  .then((data) => {
+    meals = data.meals.slice(0, 10);
+    localStorage.setItem("mealsData", JSON.stringify(meals));
+    renderMeals();
+    updateCarousel();
+    startAutoplay();
+  })
+  .catch((error) => console.error("Error loading meals:", error));
 
 function renderMeals() {
   carousel.innerHTML = "";
