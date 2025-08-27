@@ -1,63 +1,302 @@
 {
-  "Pastries": [
-    { "name": "Bread", "price": 2500 },
-    { "name": "Croissant (Mini)", "price": 2000 },
-    { "name": "Meat Pie", "price": 1200 },
-    { "name": "Chicken Pie", "price": 1500 },
-    { "name": "Puff Puff", "price": 200 },
-    { "name": "Doughnut", "price": 1000 },
-    { "name": "Buns", "price": 300 },
-    { "name": "Shawarma", "price": 3000 },
-    { "name": "Plantain Frittata (Mini)", "price": 7000 }
-  ],
-  "Fresh Fruit Drinks": {
-    "Mixed Fruit (9 bottles)": {
-      "Orange/Pineapple/Watermelon": [
-        { "size": "25cl", "price": 14000 },
-        { "size": "50cl", "price": 28000 },
-        { "size": "75cl", "price": 42000 }
-      ],
-      "Blackcurrant": [
-        { "size": "25cl", "price": 20000 },
-        { "size": "50cl", "price": 40000 }
-      ],
-      "Zobo (with fruits)": [{ "size": "50cl", "price": 7000 }]
+  "menu": [
+    {
+      "name": "Bread",
+      "price": "N2,500",
+      "image": "images/bread.webp",
+      "description": "Freshly baked bread, soft and fluffy, perfect for any meal.",
+      "category": "Pastries"
+    },
+    {
+      "name": "Croissant (Mini)",
+      "price": "N2,000",
+      "image": "images/croissant-mini.webp",
+      "description": "Buttery, flaky mini croissants, baked fresh daily.",
+      "category": "Pastries"
+    },
+    {
+      "name": "Meat Pie",
+      "price": "N1,200",
+      "image": "images/meat-pie.webp",
+      "description": "Golden crust pastry filled with seasoned minced meat and veggies.",
+      "category": "Pastries"
+    },
+    {
+      "name": "Chicken Pie",
+      "price": "N1,500",
+      "image": "images/chicken-pie.webp",
+      "description": "Rich pastry stuffed with chicken chunks and vegetables.",
+      "category": "Pastries"
+    },
+    {
+      "name": "Puff Puff",
+      "price": "N200",
+      "image": "images/puff-puff.webp",
+      "description": "Fluffy golden dough balls, deep-fried to perfection.",
+      "category": "Pastries"
+    },
+    {
+      "name": "Doughnut",
+      "price": "N1,000",
+      "image": "images/doughnut.webp",
+      "description": "Soft, sweet, and fluffy doughnuts glazed to perfection.",
+      "category": "Pastries"
+    },
+    {
+      "name": "Buns",
+      "price": "N300",
+      "image": "images/buns.webp",
+      "description": "Crispy outside, fluffy inside – a Nigerian snack favorite.",
+      "category": "Pastries"
+    },
+    {
+      "name": "Shawarma",
+      "price": "N3,000",
+      "image": "images/shawarma.webp",
+      "description": "Grilled chicken/beef wrapped with fresh veggies and creamy sauce.",
+      "category": "Pastries"
+    },
+    {
+      "name": "Plantain Frittata (Mini)",
+      "price": "N7,000",
+      "image": "images/plantain-frittata.webp",
+      "description": "Oven-baked plantain frittata with eggs, vegetables, and spices.",
+      "category": "Pastries"
+    },
+
+    {
+      "name": "Fresh Fruit Drink (25cl)",
+      "price": "N14,000 (per 9 bottles)",
+      "image": "images/fruit-drink-25cl.webp",
+      "description": "Raw fruit juice (orange, pineapple, watermelon) – no added water.",
+      "category": "Fresh Fruit Drinks"
+    },
+    {
+      "name": "Fresh Fruit Drink (50cl)",
+      "price": "N28,000 (per 9 bottles)",
+      "image": "images/fruit-drink-50cl.webp",
+      "description": "Larger size of our raw fruit juice pack.",
+      "category": "Fresh Fruit Drinks"
+    },
+    {
+      "name": "Fresh Fruit Drink (75cl)",
+      "price": "N42,000 (per 9 bottles)",
+      "image": "images/fruit-drink-75cl.webp",
+      "description": "Extra large pack of fresh, natural fruit juices.",
+      "category": "Fresh Fruit Drinks"
+    },
+    {
+      "name": "Blackcurrant Drink (25cl)",
+      "price": "N20,000 (per 9 bottles)",
+      "image": "images/blackcurrant-25cl.webp",
+      "description": "Rich blackcurrant juice with bold flavor.",
+      "category": "Fresh Fruit Drinks"
+    },
+    {
+      "name": "Blackcurrant Drink (50cl)",
+      "price": "N40,000 (per 9 bottles)",
+      "image": "images/blackcurrant-50cl.webp",
+      "description": "Larger size of our rich blackcurrant juice.",
+      "category": "Fresh Fruit Drinks"
+    },
+    {
+      "name": "Zobo with Fruits (50cl)",
+      "price": "N7,000 (per 9 bottles)",
+      "image": "images/zobo-50cl.webp",
+      "description": "Traditional zobo enriched with fresh fruits.",
+      "category": "Fresh Fruit Drinks"
+    },
+
+    {
+      "name": "Biscuits",
+      "price": "Varies",
+      "image": "images/biscuits.webp",
+      "description": "Crunchy, sweet assorted biscuits.",
+      "category": "Desserts"
+    },
+    {
+      "name": "Cakes",
+      "price": "Varies",
+      "image": "images/cake.webp",
+      "description": "Moist, rich cakes available in different flavors.",
+      "category": "Desserts"
+    },
+    {
+      "name": "Cookies",
+      "price": "Varies",
+      "image": "images/cookies.webp",
+      "description": "Crispy and chewy cookies for dessert lovers.",
+      "category": "Desserts"
+    },
+    {
+      "name": "Ice Cream",
+      "price": "N1,500",
+      "image": "images/ice-cream.webp",
+      "description": "Creamy ice cream, assorted flavors available.",
+      "category": "Desserts"
+    },
+    {
+      "name": "Puddings",
+      "price": "Varies",
+      "image": "images/pudding.webp",
+      "description": "Sweet puddings for a delightful dessert.",
+      "category": "Desserts"
+    },
+    {
+      "name": "Fruit Salad",
+      "price": "N2,000",
+      "image": "images/fruit-salad.webp",
+      "description": "Freshly cut fruits mixed into a healthy salad.",
+      "category": "Desserts"
+    },
+    {
+      "name": "Fries (Potato, Yam, Plantain)",
+      "price": "N2,000",
+      "image": "images/fries.webp",
+      "description": "Crispy golden fries made from potato, yam, or plantain.",
+      "category": "Desserts"
+    },
+
+    {
+      "name": "Jollof Rice",
+      "price": "N3,000",
+      "image": "images/jollof-rice.webp",
+      "description": "Classic Nigerian smoky jollof rice.",
+      "category": "Classic Meals"
+    },
+    {
+      "name": "Nigerian Fried Rice",
+      "price": "N3,000",
+      "image": "images/fried-rice.webp",
+      "description": "Delicious fried rice with vegetables and seasoning.",
+      "category": "Classic Meals"
+    },
+    {
+      "name": "Asu Rice",
+      "price": "N3,500",
+      "image": "images/asu-rice.webp",
+      "description": "Rice infused with spicy asun (goat meat).",
+      "category": "Classic Meals"
+    },
+    {
+      "name": "Egusi Soup",
+      "price": "N3,500",
+      "image": "images/egusi-soup.webp",
+      "description": "Melon seed soup with assorted meats and vegetables.",
+      "category": "Classic Meals"
+    },
+    {
+      "name": "Spinach Soup",
+      "price": "N3,500",
+      "image": "images/spinach-soup.webp",
+      "description": "Nutritious spinach soup with meats and spices.",
+      "category": "Classic Meals"
+    },
+    {
+      "name": "White Soup",
+      "price": "N3,500",
+      "image": "images/white-soup.webp",
+      "description": "Traditional white soup with meats and pepper.",
+      "category": "Classic Meals"
+    },
+    {
+      "name": "Afang Soup",
+      "price": "N3,500",
+      "image": "images/afang-soup.webp",
+      "description": "Afang vegetable soup with rich flavors.",
+      "category": "Classic Meals"
+    },
+    {
+      "name": "Oha Soup",
+      "price": "N3,500",
+      "image": "images/oha-soup.webp",
+      "description": "Delicious Eastern Nigerian oha leaf soup.",
+      "category": "Classic Meals"
+    },
+    {
+      "name": "Vegetable Soup",
+      "price": "N3,500",
+      "image": "images/vegetable-soup.webp",
+      "description": "Healthy mixed vegetable soup with meats.",
+      "category": "Classic Meals"
+    },
+    {
+      "name": "Vegetable Sauce",
+      "price": "N3,000",
+      "image": "images/vegetable-sauce.webp",
+      "description": "Savory vegetable sauce served with rice or yam.",
+      "category": "Classic Meals"
+    },
+    {
+      "name": "Quinoa Sauce",
+      "price": "N4,000",
+      "image": "images/quinoa-sauce.webp",
+      "description": "Rich and healthy quinoa-based sauce.",
+      "category": "Classic Meals"
+    },
+    {
+      "name": "Vegetable Stew",
+      "price": "N3,500",
+      "image": "images/vegetable-stew.webp",
+      "description": "Tomato-based stew cooked with assorted vegetables.",
+      "category": "Classic Meals"
+    },
+
+    {
+      "name": "Pineapple Fried Rice Tray",
+      "price": "N30,000",
+      "image": "images/pineapple-fried-rice.webp",
+      "description": "Premium pineapple-infused fried rice in party tray size.",
+      "category": "Premium Food Trays"
+    },
+    {
+      "name": "Chinese Fried Rice Tray",
+      "price": "N30,000",
+      "image": "images/chinese-fried-rice.webp",
+      "description": "Party-sized Chinese-style fried rice with veggies.",
+      "category": "Premium Food Trays"
+    },
+    {
+      "name": "Caribbean Rice",
+      "price": "N30,000",
+      "image": "images/caribbean-rice.webp",
+      "description": "Spiced Caribbean-style rice with herbs and tropical flavors.",
+      "category": "Premium Food Trays"
+    },
+    {
+      "name": "Lebanese Rice",
+      "price": "N30,000",
+      "image": "images/lebanese-rice.webp",
+      "description": "Rice cooked Lebanese-style with nuts and spices.",
+      "category": "Premium Food Trays"
+    },
+    {
+      "name": "Spicy Dirty Rice",
+      "price": "N30,000",
+      "image": "images/dirty-rice.webp",
+      "description": "Bold and spicy dirty rice with herbs and meats.",
+      "category": "Premium Food Trays"
+    },
+    {
+      "name": "Hibachi Fried Rice",
+      "price": "N30,000",
+      "image": "images/hibachi-rice.webp",
+      "description": "Japanese hibachi-style rice with vegetables.",
+      "category": "Premium Food Trays"
+    },
+    {
+      "name": "Kedgeree Rice",
+      "price": "N30,000",
+      "image": "images/kedgeree-rice.webp",
+      "description": "Traditional kedgeree rice with fish, eggs, and spices.",
+      "category": "Premium Food Trays"
+    },
+    {
+      "name": "Chicken Fried Rice",
+      "price": "N30,000",
+      "image": "images/chicken-fried-rice.webp",
+      "description": "Party tray of chicken fried rice with eggs and veggies.",
+      "category": "Premium Food Trays"
     }
-  },
-  "Classic Meals": [
-    { "name": "Jollof Rice" },
-    { "name": "Nigerian Fried Rice" },
-    { "name": "Asu Rice" },
-    { "name": "Egusi Soup" },
-    { "name": "Spinach Soup" },
-    { "name": "White Soup" },
-    { "name": "Afang Soup" },
-    { "name": "Oha Soup" },
-    { "name": "Vegetable Soup" },
-    { "name": "Vegetable Sauce" },
-    { "name": "Quinoa Sauce" },
-    { "name": "Vegetable Stew" }
-  ],
-  "Premium Food Trays": {
-    "Base Price": 30000,
-    "Options": [
-      "Pineapple Fried Rice",
-      "Chinese Fried Rice",
-      "Caribbean Rice",
-      "Lebanese Rice",
-      "Spicy Dirty Rice",
-      "Hibachi Fried Rice",
-      "Kedgeree Rice",
-      "Chicken Fried Rice"
-    ]
-  },
-  "Desserts": [
-    { "name": "Biscuits" },
-    { "name": "Cakes" },
-    { "name": "Cookies" },
-    { "name": "Ice Cream" },
-    { "name": "Puddings" },
-    { "name": "Fruit Salads" },
-    { "name": "Fries (Potato, Yam, Plantain)" }
   ]
 }

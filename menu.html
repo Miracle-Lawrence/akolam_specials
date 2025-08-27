@@ -3,13 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="description" content="Explore the delicious menu offerings at Akolam Specials.">
+    <meta name="author" content="Miracle Lawrence">
+    <meta name="keywords" content="Akolam, Specials, Menu, Food, Delicious">
+    <meta property="og:title" content="Menu - Akolam Specials">
+    <meta property="og:description" content="Explore the delicious menu offerings at Akolam Specials.">
+    <meta property="og:image" content="images/og-image.jpg">
+    <meta property="og:url" content="https://www.akolamspecials.com/menu.html">
+    <meta property="og:type" content="website">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Menu - Akolam Specials">
+    <meta property="twitter:description" content="Explore the delicious menu offerings at Akolam Specials.">
+    <meta property="twitter:image" content="images/og-image.jpg">
+    <meta property="twitter:url" content="https://www.akolamspecials.com/menu.html">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-    
     <script src="scripts/script.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
     <title>Menu - Akolam Specials</title>
 </head>
 
@@ -29,7 +42,17 @@
         </nav>
     </header>
     <main>
-
+      <div class="menu-header"><h1>Our Menu</h1></div>
+    <nav id="category-tabs">
+     <button data-category="all" class="active">All</button>
+  <button data-category="pastries">Pastries</button>
+  <button data-category="fresh-fruit-drinks">Fresh Fruit Drinks</button>
+  <button data-category="desserts">Desserts</button>
+  <button data-category="classic-meals">Classic Meals</button>
+  <button data-category="premium-food-trays">Premium Food Trays</button>
+    </nav>
+    <div id="menu-container" class="menu-grid"></div>
+    <div id="loading" style="text-align:center; padding:1rem; display:none;">Loading menu...</div>
     </main>
     <footer>
         <div class="contact-info">
