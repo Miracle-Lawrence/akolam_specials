@@ -1,0 +1,63 @@
+{
+  "Pastries": [
+    { "name": "Bread", "price": 2500 },
+    { "name": "Croissant (Mini)", "price": 2000 },
+    { "name": "Meat Pie", "price": 1200 },
+    { "name": "Chicken Pie", "price": 1500 },
+    { "name": "Puff Puff", "price": 200 },
+    { "name": "Doughnut", "price": 1000 },
+    { "name": "Buns", "price": 300 },
+    { "name": "Shawarma", "price": 3000 },
+    { "name": "Plantain Frittata (Mini)", "price": 7000 }
+  ],
+  "Fresh Fruit Drinks": {
+    "Mixed Fruit (9 bottles)": {
+      "Orange/Pineapple/Watermelon": [
+        { "size": "25cl", "price": 14000 },
+        { "size": "50cl", "price": 28000 },
+        { "size": "75cl", "price": 42000 }
+      ],
+      "Blackcurrant": [
+        { "size": "25cl", "price": 20000 },
+        { "size": "50cl", "price": 40000 }
+      ],
+      "Zobo (with fruits)": [{ "size": "50cl", "price": 7000 }]
+    }
+  },
+  "Classic Meals": [
+    { "name": "Jollof Rice" },
+    { "name": "Nigerian Fried Rice" },
+    { "name": "Asu Rice" },
+    { "name": "Egusi Soup" },
+    { "name": "Spinach Soup" },
+    { "name": "White Soup" },
+    { "name": "Afang Soup" },
+    { "name": "Oha Soup" },
+    { "name": "Vegetable Soup" },
+    { "name": "Vegetable Sauce" },
+    { "name": "Quinoa Sauce" },
+    { "name": "Vegetable Stew" }
+  ],
+  "Premium Food Trays": {
+    "Base Price": 30000,
+    "Options": [
+      "Pineapple Fried Rice",
+      "Chinese Fried Rice",
+      "Caribbean Rice",
+      "Lebanese Rice",
+      "Spicy Dirty Rice",
+      "Hibachi Fried Rice",
+      "Kedgeree Rice",
+      "Chicken Fried Rice"
+    ]
+  },
+  "Desserts": [
+    { "name": "Biscuits" },
+    { "name": "Cakes" },
+    { "name": "Cookies" },
+    { "name": "Ice Cream" },
+    { "name": "Puddings" },
+    { "name": "Fruit Salads" },
+    { "name": "Fries (Potato, Yam, Plantain)" }
+  ]
+}
