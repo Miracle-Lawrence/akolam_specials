@@ -278,6 +278,7 @@ footer div {
   box-sizing: border-box;
   text-align: center;
   transition: transform 0.3s;
+
 }
 
 .carousel-item img {
@@ -746,7 +747,8 @@ strong {
 
 .menu-header h1 {
   margin-bottom: 2rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  color: var(--main-text);
 }
 #category-tabs {
   display: flex;
@@ -761,14 +763,15 @@ strong {
   padding: 0.4rem 0.5rem;
   border: none;
   background-color: #eee;
+  color: var(--main-text);
   cursor: pointer;
   border-radius: 5px;
   font-weight: bold;
 }
 
 #category-tabs button.active {
-  background-color:   #FF914D;
-  color: #fff;
+  background-color:  var(--accent-1);
+  color: var(--content-contrast-text-color);
 }
 
 .menu-grid {
@@ -816,22 +819,22 @@ strong {
 
 .menu-details .price {
   font-weight: bold;
-  color: #FF914D;
+  color: var(--accent-1);
 }
 
 .menu-details .order-btn {
   display: inline-block;
   margin-top: 0.5rem;
   padding: 0.5rem 0.8rem;
-  background-color: #FF914D;
-  color: white;
+  background-color: var(--accent-1);
+  color: var(--content-contrast-text-color);
   text-decoration: none;
   border-radius: 5px;
   margin-bottom: 1rem;
   font-size: 0.8rem;
 }
 .menu-details .order-btn:hover {
-  background-color: #e6762c;
+  background-color: var(--accent-2);
 }
 
 
