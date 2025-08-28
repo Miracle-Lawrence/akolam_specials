@@ -1,28 +1,90 @@
 {
-  "General Packages": [
-    "Mini Package",
-    "Medi Package",
-    "Maxi Package",
-    "Mega Package",
-    "Custom Package"
-  ],
-  "Valentine Packages": {
-    "Males": [
-      { "name": "Darling Package", "price": 150000, "extra": 15000 },
-      { "name": "Diamond Package", "price": 70000, "extra": 15000 },
-      { "name": "Love Package", "price": 95000, "extra": 15000 },
-      { "name": "Solo Package", "price": 20000, "extra": 15000 },
-      { "name": "Basic Package", "price": 40000, "extra": 15000 },
-      { "name": "Classic Package", "price": 55000, "extra": 15000 }
-    ],
-    "Females": [
-      { "name": "Solo Package", "price": 10000, "extra": 15000 },
-      { "name": "Basic Package", "price": 25000, "extra": 15000 },
-      { "name": "Standard Package", "price": 40000, "extra": 15000 },
-      { "name": "Classic Package", "price": 70000, "extra": 15000 },
-      { "name": "Mi Amor Package", "price": 90000, "extra": 15000 },
-      { "name": "Diamond Package", "price": 300000, "extra": 15000 },
-      { "name": "Deluxe Package", "price": 150000, "extra": 15000 }
-    ]
-  }
+  "packages": [
+    {
+      "name": "MINI Package",
+      "price": "40,000",
+      "image": "images/food-tray.webp",
+      "meals": [
+        "Jollof rice",
+        "Fruit juice",
+        "Coleslaw",
+        "Bottled water",
+        "Chocolate",
+        "Peppered fried fish",
+        "Fruits",
+        "Cupcakes"
+      ]
+    },
+    {
+      "name": "MEDI Package",
+      "price": "60,000",
+      "image": "images/food-tray.webp",
+      "meals": [
+        "Jollof rice",
+        "Fruit juice",
+        "Coleslaw",
+        "Bottled water",
+        "Biscuits",
+        "Pastries",
+        "Spaghetti",
+        "Fried peppered beef",
+        "Fruits",
+        "Cupcakes",
+        "Wine",
+        "Fruit drink"
+      ]
+    },
+    {
+      "name": "MAXI Package",
+      "price": "70,000",
+      "image": "images/food-tray.webp",
+      "meals": [
+        "Jollof rice",
+        "Fruit juice",
+        "Coleslaw",
+        "Bottled water",
+        "Fried plantains",
+        "Pastries",
+        "Fried rice",
+        "Red wine",
+        "Peppered chicken",
+        "Fruits",
+        "Spaghetti",
+        "Cupcakes",
+        "Fruit drinks",
+        "Biscuits"
+      ]
+    },
+    {
+      "name": "MEGA Package",
+      "price": "90,000",
+      "image": "images/food-tray.webp",
+      "meals": [
+        "Jollof rice",
+        "Coleslaw",
+        "Fruit juice",
+        "Bottled water",
+        "Fried plantains",
+        "Pastries",
+        "Fried rice",
+        "Chinese rice",
+        "Spaghetti",
+        "Red wine",
+        "Peppered chicken",
+        "Pringles",
+        "Fried peppered fish",
+        "Chocolate",
+        "Biscuits",
+        "Fruits",
+        "Cupcakes",
+        "Fruit drink"
+      ]
+    },
+    {
+      "name": "Custom Package",
+      "price": "Varies",
+      "image": "images/food-tray.webp",
+      "meals": ["Choose your own combination of meals"]
+    }
+  ]
 }

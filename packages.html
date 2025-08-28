@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/script.js" defer></script>
+    <script src="scripts/packages.js" defer></script>
+    <script src="scripts/valentine.js" defer></script>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <title>Packages - Akolam Specials</title>
 </head>
@@ -27,6 +29,17 @@
         </nav>
     </header>
     <main>
+      <h2>Our Packages</h2>
+      <div id="packages-container"></div>
+
+    <h2>💝 Valentine’s Special Packages</h2>
+    <div class="filters">
+      <button data-gender="all" class="active">All</button>
+      <button data-gender="male">Male Packages</button>
+      <button data-gender="female">Female Packages</button>
+    </div>
+    <div id="val-package-container" class="package-grid"></div>
+    <p id="loading">Loading packages...</p>
 
     </main>
     <footer>

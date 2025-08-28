@@ -1,0 +1,297 @@
+{
+  "packages": [
+    {
+      "name": "Darling Package",
+      "price": "₦150,000",
+      "image": "images/valentine.webp",
+      "description": "A luxurious Valentine’s gift package for men with wine, clothing, accessories, and sweet treats.",
+      "items": [
+        "Customized wine",
+        "Perfume",
+        "Shoe cleaning kit",
+        "T-shirt",
+        "“Reason Why I Love You” picture card",
+        "Customized flask/wine glass",
+        "3 pairs of executive socks",
+        "Customized notepad/manicure set",
+        "Hair brush",
+        "Belt",
+        "Face towels",
+        "Key holders",
+        "Chocolates",
+        "Cookies",
+        "Music box",
+        "Leather wallet",
+        "Valentine card",
+        "Boxing and packaging"
+      ],
+      "category": "valentines",
+      "gender": "male"
+    },
+    {
+      "name": "Diamond Package",
+      "price": "₦70,000",
+      "image": "images/valentine.webp",
+      "description": "A premium Valentine’s gift box with wine, perfume, and accessories.",
+      "items": [
+        "Wine",
+        "Perfume",
+        "Customized flask/wine glass/mug",
+        "A pair of executive socks",
+        "Notepad and wallet",
+        "Hair brush and face towels",
+        "Chocolates/cookies",
+        "Valentine card",
+        "Boxing and packaging"
+      ],
+      "category": "valentines",
+      "gender": "male"
+    },
+    {
+      "name": "Love Package",
+      "price": "₦95,000",
+      "image": "images/valentine.webp",
+      "description": "A thoughtful Valentine’s package combining fashion, grooming, and sweet indulgences.",
+      "items": [
+        "Wine",
+        "Perfume",
+        "Shoe cleaning kit",
+        "Customized flask/wine glass",
+        "2 pairs of executive socks",
+        "Customized notepad/manicure set",
+        "Hair brush and face towels/key holder",
+        "Chocolates and cookies",
+        "Music box",
+        "Leather wallet",
+        "Valentine card",
+        "Boxing and packaging"
+      ],
+      "category": "valentines",
+      "gender": "male"
+    },
+    {
+      "name": "Solo Package",
+      "price": "₦20,000",
+      "image": "images/valentine.webp",
+      "description": "An affordable solo Valentine’s package for men with essentials and sweet treats.",
+      "items": [
+        "Face towel",
+        "Wallet",
+        "Chocolates/cookies",
+        "Valentine card",
+        "Fruit drink",
+        "Boxing and packaging"
+      ],
+      "category": "valentines",
+      "gender": "male"
+    },
+    {
+      "name": "Basic Package",
+      "price": "₦40,000",
+      "image": "images/valentine.webp",
+      "description": "A simple yet thoughtful Valentine’s package for men with wine and accessories.",
+      "items": [
+        "Chocolates",
+        "Pair of socks",
+        "Key holder",
+        "Valentine card",
+        "Hair brush/face towel",
+        "Wallet",
+        "Wine",
+        "Valentine themed box"
+      ],
+      "category": "valentines",
+      "gender": "male"
+    },
+    {
+      "name": "Classic Package",
+      "price": "₦55,000",
+      "image": "images/valentine.webp",
+      "description": "A classic Valentine’s package that blends elegance, fashion, and gifting essentials.",
+      "items": [
+        "Pair of socks",
+        "Leather wallet",
+        "Key holder",
+        "Chocolates/cookies",
+        "Valentine card",
+        "Face towels",
+        "Journal/notepad",
+        "Wine and water flask",
+        "Hair brush",
+        "Gift boxing and packaging"
+      ],
+      "category": "valentines",
+      "gender": "male"
+    },
+
+    {
+      "name": "Solo Package",
+      "price": "₦10,000",
+      "image": "images/valentine.webp",
+      "description": "An affordable solo Valentine’s package for women with chocolates, card, and drink.",
+      "items": [
+        "Bracelet",
+        "Chocolates",
+        "Valentine card",
+        "Fruit drink",
+        "Boxing and packaging"
+      ],
+      "category": "valentines",
+      "gender": "female"
+    },
+    {
+      "name": "Basic Package",
+      "price": "₦25,000",
+      "image": "images/valentine.webp",
+      "description": "A basic Valentine’s gift for women with jewelry and sweet surprises.",
+      "items": [
+        "Chocolates/cookies",
+        "Necklace/key holder",
+        "Valentine card",
+        "Hair band/lip gloss",
+        "Leather purse",
+        "Valentine themed box"
+      ],
+      "category": "valentines",
+      "gender": "female"
+    },
+    {
+      "name": "Standard Package",
+      "price": "₦40,000",
+      "image": "images/valentine.webp",
+      "description": "A standard Valentine’s package with jewelry, purse, and beauty items.",
+      "items": [
+        "Steel bracelet/necklace",
+        "Leather purse",
+        "Key holder",
+        "Chocolates/cookies",
+        "Valentine card",
+        "Lip gloss/lip balm",
+        "Single scented rose",
+        "Wine/perfume/body mist",
+        "Gift boxing and packaging"
+      ],
+      "category": "valentines",
+      "gender": "female"
+    },
+    {
+      "name": "Classic Package",
+      "price": "₦70,000",
+      "image": "images/valentine.webp",
+      "description": "A classic Valentine’s package for women with jewelry, perfume, and stylish gifts.",
+      "items": [
+        "Steel bracelet/necklace/statement rings",
+        "Leather purse",
+        "Keychain/key holder",
+        "Chocolates/cookies",
+        "Wine/perfume/body mist",
+        "Lip gloss",
+        "Valentine card",
+        "Water flask/promise ring",
+        "Single scented rose",
+        "Head scarf and hair band",
+        "Boxing and packaging"
+      ],
+      "category": "valentines",
+      "gender": "female"
+    },
+    {
+      "name": "Mi Amor Package",
+      "price": "₦90,000",
+      "image": "images/valentine.webp",
+      "description": "A Mi Amor package filled with jewelry, accessories, and luxury Valentine’s items.",
+      "items": [
+        "Steel bracelet/necklace/statement",
+        "Leather purse/manicure set",
+        "Perfume/body mist",
+        "Keychain/key holder/pearl keychain",
+        "Chocolates/cookies",
+        "Lip gloss",
+        "Valentine card",
+        "Notepad",
+        "Jewelry set",
+        "Temperature flask/mug",
+        "Single scented rose",
+        "Wine",
+        "Head scarf and hair band",
+        "Boxing and packaging"
+      ],
+      "category": "valentines",
+      "gender": "female"
+    },
+    {
+      "name": "Diamond Package",
+      "price": "₦300,000",
+      "image": "images/valentine.webp",
+      "description": "An exclusive diamond package for women with jewelry, perfume set, and luxury gifts.",
+      "items": [
+        "Jewelry set",
+        "Perfume set",
+        "Statement rings",
+        "Manicure set",
+        "Custom made hand bag",
+        "Key holder/pearl keychain",
+        "Customized journal",
+        "Lip gloss",
+        "Music box/power bank",
+        "Chocolates",
+        "Cookies",
+        "Teddy bear",
+        "Mini fan",
+        "Valentine card",
+        "Wine",
+        "Steel bracelet",
+        "Customized flask/mug/towels",
+        "“Reason why I love you” picture card",
+        "Bouquet of roses",
+        "Boxing and packaging"
+      ],
+      "category": "valentines",
+      "gender": "female"
+    },
+    {
+      "name": "Deluxe Package",
+      "price": "₦150,000",
+      "image": "images/valentine.webp",
+      "description": "A deluxe Valentine’s package with jewelry, accessories, and elegant surprises.",
+      "items": [
+        "Jewelry set",
+        "Perfume/body mist",
+        "Statement rings",
+        "Manicure set",
+        "Custom made hand bag",
+        "Key holder/pearl keychain",
+        "Customized notepad",
+        "Lip gloss",
+        "Music box/power bank",
+        "Chocolates",
+        "Cookies",
+        "Teddy bear",
+        "Mini fan",
+        "Valentine card",
+        "Wine",
+        "Steel bracelet",
+        "Customized flask/mug/towels",
+        "“Reason Why I love you” picture card",
+        "Scented heart flowers",
+        "Boxing and packaging"
+      ],
+      "category": "valentines",
+      "gender": "female"
+    },
+    {
+      "name": "Extra Package",
+      "price": "₦15,000",
+      "image": "images/valentine.webp",
+      "description": "An additional food package that can be added to any Valentine’s package.",
+      "items": [
+        "2 muffins",
+        "A plate of rice",
+        "1 pepper chicken",
+        "Coleslaw/plantain"
+      ],
+      "category": "valentines",
+      "gender": "all"
+    }
+  ]
+}
