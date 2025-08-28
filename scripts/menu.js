@@ -27,7 +27,7 @@ function createMealItem(meal) {
   const whatsappText = encodeURIComponent(
     `Hello there, I'd like to get this: ${meal.name} - ${meal.price}`
   );
-  const orderLink = `https://wa.me/2348133744840?text=${whatsappText}`;
+  const orderLink = `https://wa.me/2348067405845?text=${whatsappText}`;
 
   return `
     <div class="menu-item">
